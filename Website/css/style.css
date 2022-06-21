@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 20px 10px 20px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+p{
+    color: rgb(86, 39, 166);
+    text-align: justify;
+    padding: 0 10px 0 10px;
+}
+
+hr{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: 1px solid white;
+}
+
+body{
+    background-image: url('../images/Body.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 212);
+}
+
+header{
+    width: 100vw;
+    height: 80px;
+    background-image: url(../images/header.png);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+header nav{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    margin: 10px 20px 10px 20px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+header nav ul li a:hover{
+    background-color: violet;
+}
+
+main{
+    flex: 3 3 700px;
+    margin: 40px 20px 40px 40px;
+}
+
+main article{
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+main figure{
+    margin-bottom: 10px;
+}
+
+main figcaption{
+    font-size: 14px;
+}
+
+article img{
+    border-radius: 3px;
+}
+
+article.game-design img{
+    width: 600px;
+}
+
+article.app-design figure{
+    display: inline-block;
+    margin-right: 38px;
+}
+
+article.app-design img{
+    width: 150px;
+}
+
+article.web-design img{
+    width: 600px;
+}
+
+article.logo img{
+    width: 300px;
+}
+
+aside{
+    flex: 1 1 300px;
+    margin: 40px 40px 40px 20px;
+    /* position: fixed;
+    top: 90px;
+    right: 100px; */
+}
+
+aside>*{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+aside hr{
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li{
+    list-style: none;
+}
+
+aside ul li a{
+    text-decoration: none;
+}
+
+aside ul li a:hover{
+    background-color: violet;
+}
+
+footer{
+    width: 100vw;
+    height: 100px;
+    background-image: url(../images/header.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+footer>p, footer>nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    margin: 10px;
+}
+
+footer a:first-of-type{
+    margin-right: 5px;
+}
+
+footer a:nth-of-type(2){
+    margin-right: 5px;
+}
